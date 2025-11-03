@@ -4,11 +4,13 @@ import Counter from './Count'
 
 function App() {
   return (
-    <div>
+    <div className="app-root" style={{ padding: '24px' }}>
       <Counter />
     </div>
   )
 }
+
+export default App
 
 // function Logo() {
 //   return (
